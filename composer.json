@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Katapoka\\Ahgora\\Contracts" : "src/"
+            "Katapoka\\Ahgora\\Contracts\\" : "src/"
         }
     }
 }
