@@ -31,7 +31,7 @@ interface IHttpResponse
     /**
      * Get the request body as json, if is json compatible.
      *
-     * @return string
+     * @return mixed
      */
     public function json();
 
