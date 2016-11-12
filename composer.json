@@ -1,0 +1,21 @@
+{
+    "name": "williamokano/ahgora-api-contracts",
+    "description": "Ahgora API contracts",
+    "type": "interfaces",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Okano",
+            "email": "williamokano@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Katapoka\\Ahgora\\Contracts" : "src/"
+        }
+    }
+}
