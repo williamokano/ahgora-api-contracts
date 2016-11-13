@@ -51,14 +51,14 @@ interface IAhgoraApi
     public function doLogin();
 
     /**
-     * Get the punchs at the given parameters.
+     * Get the punches at the given parameters.
      *
-     * @param int|null $month The month you want to get the punchs - Must be between 01 and 12 (both included)
-     * @param int|null $year The year you want to get the punchs
+     * @param int|null $month The month you want to get the punches - Must be between 01 and 12 (both included)
+     * @param int|null $year The year you want to get the punches
      *
      * @return array
      */
-    public function getPunchs($month = null, $year = null);
+    public function getPunches($month = null, $year = null);
 
     /**
      * Gets the employer name.
