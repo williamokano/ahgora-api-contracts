@@ -61,6 +61,17 @@ interface IAhgoraApi
     public function getPunches($month = null, $year = null);
 
     /**
+     * Get the punches from some given day.
+     *
+     * @param int $day
+     * @param int $month
+     * @param int $year
+     *
+     * @return mixed
+     */
+    public function getPunchesFromDay($day, $month, $year);
+
+    /**
      * Gets the employer name.
      *
      * @return string
