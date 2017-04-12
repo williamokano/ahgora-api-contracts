@@ -67,12 +67,19 @@ interface IAhgoraApi
      * @param int $month
      * @param int $year
      *
-     * @return mixed
+     * @return array
      */
     public function getPunchesFromDay($day, $month, $year);
 
     /**
-     * Gets the employer name.
+     * Gets the employee name.
+     *
+     * @return string
+     */
+    public function getEmployeeName();
+
+    /**
+     * Gets the employee name.
      *
      * @return string
      */
